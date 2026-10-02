@@ -1,1 +1,74 @@
 
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#logo {
+    margin: 5px 0;
+}
+
+#navbar ul li {
+    font-size: 1rem;
+}
+
+#navbar ul li a {
+    padding: 3px 10px;
+}
+
+
+/* Home */
+#home {
+    padding: 3px 20px;
+    height: 500px;
+}
+
+#home h1 {
+    font-size: 2.2rem;
+}
+
+#home p {
+    font-size: 1rem;
+}
+
+
+/* Services */
+#services {
+    flex-direction: column;
+}
+
+#services .box {
+    margin: 15px 20px;
+    padding: 15px;
+}
+
+
+/* Menu */
+#menu {
+    padding: 20px 10px;
+}
+
+.menu-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-card {
+    width: 250px;
+}
+
+
+/* Cart */
+.cart-item {
+    width: 80%;
+}
+
+
+/* Contact */
+#contact-box form {
+    width: 80%;
+}
+
+#contact-box {
+    padding: 20px;
+}
