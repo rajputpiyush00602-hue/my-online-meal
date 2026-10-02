@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>best online food delivery service in india | MyOnlineMeal.com</title>
+     <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contacat Us</a></li>
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Vero molestias, e. </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <button class="btn" onclick="location.href='#menu'">Order Now</button>
+    </section>
+    <!-- <hr> -->
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="img/1.png" alt="">
+                    <h2 class="h-secondary center">Food Ordering</h2>
+                    <p class="center">Lorem ipsum dolor sit  blanditiis et molestiae, quidem quaerat ab dignissimos,
+                        maxime dolore nesciunt alias consequuntur possimus? Alias, quod corrupti! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam velit consequuntur eum minima sed ipsam nam, nostrum impedit, et illum quasi,  dolore.</p>
+                </div>
+                 <div class="box">
+                    <img src="img/2.png" alt="">
+                    <h2 class="h-secondary center">Food catering</h2>
+                    <p class="center">Lorem ipsum dolor sit  blanditiis et molestiae, quidem quaerat ab dignissimos,
+                        maxime dolore nesciunt alias consequuntur possimus? Alias, quod corrupti! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates qui ducimus, natus corrupti molestiae necessitatibus nulla veniam eos sequi architecto facere assumenda dellor hgyhi molestias.</p>
+                </div>
+                 <div class="box">
+                    <img src="img/3.png" alt="">
+                    <h2 class="h-secondary center">Bulk Ordering</h2>
+                    <p class="center">Lorem ipsum dolor sit  blanditiis et molestiae, quidem quaerat ab dignissimos,
+                        maxime dolore nesciunt alias consequuntur possimus? Alias, quod corrupti! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis molestiae soluta quaerat deleniti placeat, alias incidunt quidem inventore corporis eligendi illum impedit neque?</p>
+                </div>
+            </div>
+        </section>
+        <!-- Food Menu -->
+
+<section id="menu">
+
+    <h1 class="h-primary center">Our Food Menu</h1>
+
+    <div class="menu-container">
+
+        <div class="food-card">
+            <img src="img/Pizza.png" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>Delicious cheese pizza</p>
+            <h3>₹199</h3>
+            <button onclick="addToCart('Pizza', 199)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <img src="img/burger.jpg" alt="Burger">
+            <h2>Burger</h2>
+            <p>Fresh and tasty burger</p>
+            <h3>₹99</h3>
+            <button onclick="addToCart('Burger', 99)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <img src="img/biryani.jpg" alt="Biryani">
+            <h2>Biryani</h2>
+            <p>Spicy and delicious biryani</p>
+            <h3>₹179</h3>
+            <button onclick="addToCart('Biryani', 179)">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <img src="img/noodles.jpg" alt="Noodles">
+            <h2>Noodles</h2>
+            <p>Hot and tasty noodles</p>
+            <h3>₹129</h3>
+            <button onclick="addToCart('Noodles', 129)">Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Cart -->
+
+<section id="cart-section">
+
+    <h1 class="h-primary center">Your Cart</h1>
+
+    <div id="cart-items">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <h2 class="center">
+        Total: ₹<span id="total">0</span>
+    </h2>
+
+    <div class="center">
+        <button class="btn" onclick="placeOrder()">Place Order</button>
+    </div>
+
+</section>
+        <!-- <hr> -->
+          <section id="client-section">
+            <h1 class="h-primary center">Our Clients</h1>
+            <div id="clients">
+                <div class="client-item">
+                    <img src="img/logo1.png" alt="Our Client">
+                </div>
+                  <div class="client-item">
+                    <img src="img/logo2.png" alt="Our Client">
+                </div>
+                  <div class="client-item">
+                    <img src="img/logo3.png" alt="Our Client">
+                </div>
+           
+                  <div class="client-item">
+                    <img src="img/logo4.png" alt="Our Client">
+                </div>
+                 
+                
+            </div>
+          </section>
+          <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your name">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="name" id="name" placeholder="Enter Your email">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" name="name" id="name" placeholder="Enter Your phone">
+                    
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            </div>
+          </section>
+          <footer>
+            <div class="center">
+                copyright &copy; www.myOnline.com All rightreserved!
+            </div>
+          </footer>
+
+          <script src="script.js"></script>
+</body>
+
+</html>
